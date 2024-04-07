@@ -4,7 +4,10 @@
 
 namespace SpaghettiCodeDemo.ViewModels
 {
+    using System;
+    using System.Reactive.Linq;
     using ReactiveUI;
+    using SpaghettiCodeDemo.Models;
 
     /// <summary>
     /// MainWindowViewModel responsible for displaying the correct views.
@@ -22,7 +25,7 @@ namespace SpaghettiCodeDemo.ViewModels
         /// </summary>
         public MainWindowViewModel()
         {
-            this.content = new TodosViewModel();
+            this.content = this.List = new TodosViewModel();
         }
 
         /// <summary>
@@ -37,11 +40,34 @@ namespace SpaghettiCodeDemo.ViewModels
         }
 
         /// <summary>
-        /// Switches view to AddTodoView.
+        /// Gets the viewmodel for the list of TodoItems.
         /// </summary>
-        public void AddItem()
+        private TodosViewModel List { get; }
+
+        /// <summary>
+        /// Switches view to AddTodoView and adds TodoItems from that view.
+        /// </summary>
+        public void AddTodo()
         {
-            this.Content = new AddTodoViewModel();
+            var vm = new AddTodoViewModel();
+
+            // Subscribe to the stream of outputs from both reactive commands (Ok and Cancel)
+            vm.Ok.Merge(vm.Cancel.Select(_ => (TodoItem)null))
+                .Take(1)
+                .Subscribe(model =>
+                {
+                    // If the model outputted is not null, add it to the list of TodoItems
+                    if (model != null)
+                    {
+                        this.List.TodoItems.Add(model);
+                    }
+
+                    // Display the list of Todos and hide the AddTodoView whenever Ok and Cancel are pressed
+                    this.Content = this.List;
+                });
+
+            // Show the AddTodoView
+            this.Content = vm;
         }
     }
 }

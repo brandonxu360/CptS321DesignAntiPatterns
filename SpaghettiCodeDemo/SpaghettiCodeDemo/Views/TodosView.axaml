@@ -7,10 +7,10 @@
              x:Class="SpaghettiCodeDemo.Views.TodosView"
              x:DataType="viewModels:TodosViewModel">
     <DockPanel>
-        <Button DockPanel.Dock="Bottom" DataContext="" Command="{Binding $parent[Window].((viewModels:MainWindowViewModel)DataContext).AddItem}">
+        <Button DockPanel.Dock="Bottom" DataContext="" Command="{Binding $parent[Window].((viewModels:MainWindowViewModel)DataContext).AddTodo}">
             Add a todo
         </Button>
-        <ItemsControl ItemsSource="{Binding Items}">
+        <ItemsControl ItemsSource="{Binding TodoItems}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <CheckBox Margin="4"

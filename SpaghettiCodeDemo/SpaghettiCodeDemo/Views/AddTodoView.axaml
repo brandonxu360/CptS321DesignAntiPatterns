@@ -7,8 +7,8 @@
              x:Class="SpaghettiCodeDemo.Views.AddTodoView"
              x:DataType="viewModels:AddTodoViewModel">
     <DockPanel>
-        <Button DockPanel.Dock="Bottom">Cancel</Button>
-        <Button DockPanel.Dock="Bottom">OK</Button>
+        <Button DockPanel.Dock="Bottom" Command="{Binding Cancel}">Cancel</Button>
+        <Button DockPanel.Dock="Bottom" Command="{Binding Ok}">OK</Button>
         <TextBox AcceptsReturn="True"
                  Text="{Binding Name}"
                  Watermark="Enter your TODO"/>

@@ -15,6 +15,6 @@ namespace SpaghettiCodeDemo.ViewModels
         /// <summary>
         /// Gets the observable list of TodoItems, initially empty.
         /// </summary>
-        public ObservableCollection<TodoItem> Items { get; } = [];
+        public ObservableCollection<TodoItem> TodoItems { get; } = [];
     }
 }
