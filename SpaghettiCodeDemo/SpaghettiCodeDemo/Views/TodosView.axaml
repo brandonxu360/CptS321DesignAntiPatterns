@@ -10,6 +10,7 @@
         <Button DockPanel.Dock="Bottom" DataContext="" Command="{Binding $parent[Window].((viewModels:MainWindowViewModel)DataContext).AddTodo}">
             Add a todo
         </Button>
+        <Button DockPanel.Dock="Bottom" Command="{Binding ClearCompletedTodos}">Clear completed</Button>
         <ItemsControl ItemsSource="{Binding TodoItems}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>

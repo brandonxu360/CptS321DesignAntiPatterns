@@ -4,6 +4,7 @@
 
 namespace SpaghettiCodeDemo.ViewModels
 {
+    using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using SpaghettiCodeDemo.Models;
 
@@ -16,5 +17,30 @@ namespace SpaghettiCodeDemo.ViewModels
         /// Gets the observable list of TodoItems, initially empty.
         /// </summary>
         public ObservableCollection<TodoItem> TodoItems { get; } = [];
+
+        /// <summary>
+        /// Removes all the completed Todos
+        /// </summary>
+        public void ClearCompletedTodos()
+        {
+            // Create a list to hold items to remove
+            var itemsToRemove = new List<TodoItem>();
+
+            // Iterate over TodoItems
+            foreach (var todoItem in this.TodoItems)
+            {
+                if (todoItem.IsChecked)
+                {
+                    // Add completed items to the removal list
+                    itemsToRemove.Add(todoItem);
+                }
+            }
+
+            // Remove completed items from TodoItems
+            foreach (var itemToRemove in itemsToRemove)
+            {
+                this.TodoItems.Remove(itemToRemove);
+            }
+        }
     }
 }
