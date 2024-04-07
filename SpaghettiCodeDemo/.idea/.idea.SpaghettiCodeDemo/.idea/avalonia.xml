@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="SpaghettiCodeDemo/ViewModels/TodosView.axaml" value="SpaghettiCodeDemo/SpaghettiCodeDemo.csproj" />
         <entry key="SpaghettiCodeDemo/Views/MainWindow.axaml" value="SpaghettiCodeDemo/SpaghettiCodeDemo.csproj" />
       </map>
     </option>

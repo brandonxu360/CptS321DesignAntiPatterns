@@ -9,51 +9,13 @@
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
         Title="SpaghettiCodeDemo"
-        Width="240" Height="300">
+        Width="240" Height="300"
+        Content="{Binding Content}">
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <viewModels:MainWindowViewModel />
     </Design.DataContext>
-    <DockPanel>
-        <StackPanel Orientation="Vertical" DockPanel.Dock="Top">
-            <Border BorderBrush="Black" BorderThickness="1">
-                <!--This binds to the observable collection in the ViewModel-->
-                <ItemsControl ItemsSource="{Binding Todos}">
-
-                    <!--Use a StackPanel to display all the modules-->
-                    <ItemsControl.ItemsPanel>
-                        <ItemsPanelTemplate>
-                            <StackPanel Height="230" />
-                        </ItemsPanelTemplate>
-                    </ItemsControl.ItemsPanel>
-
-                    <!--This defines the layout for each item (i.e. each module)-->
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <CheckBox Margin="4"
-                                      Content="{Binding}"
-                                      IsChecked="False" />
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
-            </Border>
-        </StackPanel>
-
-        <StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center" VerticalAlignment="Bottom"
-                    Margin="10 10 10 20" Orientation="Horizontal">
-            <Button
-                Command="{Binding AddTodo}" Padding="10">
-                Add a todo
-            </Button>
-            <Button
-                Command="{Binding ClearCompletedTodos}" Padding="10">
-                Clear completed
-            </Button>
-        </StackPanel>
-
-    </DockPanel>
-
-
+    
 </Window>
