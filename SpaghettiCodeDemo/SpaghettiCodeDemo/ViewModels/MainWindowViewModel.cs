@@ -22,7 +22,7 @@ namespace SpaghettiCodeDemo.ViewModels
         /// </summary>
         public MainWindowViewModel()
         {
-            this.content = this.Todos = new TodosViewModel();
+            this.content = new TodosViewModel();
         }
 
         /// <summary>
@@ -37,8 +37,11 @@ namespace SpaghettiCodeDemo.ViewModels
         }
 
         /// <summary>
-        /// Gets the view model holding the list of Todos.
+        /// Switches view to AddTodoView.
         /// </summary>
-        public TodosViewModel Todos { get; }
+        public void AddItem()
+        {
+            this.Content = new AddTodoViewModel();
+        }
     }
 }

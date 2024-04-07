@@ -7,7 +7,7 @@
              x:Class="SpaghettiCodeDemo.Views.TodosView"
              x:DataType="viewModels:TodosViewModel">
     <DockPanel>
-        <Button DockPanel.Dock="Bottom">
+        <Button DockPanel.Dock="Bottom" DataContext="" Command="{Binding $parent[Window].((viewModels:MainWindowViewModel)DataContext).AddItem}">
             Add a todo
         </Button>
         <ItemsControl ItemsSource="{Binding Items}">

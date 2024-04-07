@@ -10,7 +10,8 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="SpaghettiCodeDemo"
         Width="240" Height="300"
-        Content="{Binding Content}">
+        Content="{Binding Content}"
+        x:CompileBindings="True">
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
