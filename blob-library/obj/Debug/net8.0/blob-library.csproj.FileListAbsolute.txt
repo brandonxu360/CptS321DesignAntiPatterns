@@ -1,0 +1,11 @@
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\bin\Debug\net8.0\blob-library.deps.json
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\bin\Debug\net8.0\blob-library.dll
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\bin\Debug\net8.0\blob-library.pdb
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\obj\Debug\net8.0\blob-library.GeneratedMSBuildEditorConfig.editorconfig
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\obj\Debug\net8.0\blob-library.AssemblyInfoInputs.cache
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\obj\Debug\net8.0\blob-library.AssemblyInfo.cs
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\obj\Debug\net8.0\blob-library.csproj.CoreCompileInputs.cache
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\obj\Debug\net8.0\blob-library.dll
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\obj\Debug\net8.0\refint\blob-library.dll
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\obj\Debug\net8.0\blob-library.pdb
+D:\Files\School\CPTS 321\cpts321-hws\blob-library\obj\Debug\net8.0\ref\blob-library.dll
