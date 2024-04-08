@@ -1,0 +1,12 @@
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\bin\Debug\net8.0\BlobRefactored.deps.json
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\bin\Debug\net8.0\BlobRefactored.dll
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\bin\Debug\net8.0\BlobRefactored.pdb
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\obj\Debug\net8.0\BlobRefactored.GeneratedMSBuildEditorConfig.editorconfig
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\obj\Debug\net8.0\BlobRefactored.AssemblyInfoInputs.cache
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\obj\Debug\net8.0\BlobRefactored.AssemblyInfo.cs
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\obj\Debug\net8.0\BlobRefactored.csproj.CoreCompileInputs.cache
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\obj\Debug\net8.0\BlobRefactored.sourcelink.json
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\obj\Debug\net8.0\BlobRefactored.dll
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\obj\Debug\net8.0\refint\BlobRefactored.dll
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\obj\Debug\net8.0\BlobRefactored.pdb
+D:\Files\School\CPTS 321\presentation\CptS321DesignAntiPatterns\BlobRefactored\obj\Debug\net8.0\ref\BlobRefactored.dll

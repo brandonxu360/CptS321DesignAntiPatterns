@@ -47,5 +47,10 @@ namespace BlobRefactored
         {
             UserSettings.UpdateNotifications(receiveNotifications);
         }
+
+        public void DisplaySettings()
+        {
+            UserSettings.DisplaySettings();
+        }
     }
 }

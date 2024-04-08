@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlobRefactored")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc05261801ea769a145c285885903408d6cb5060")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b7f5be9e7e1de8ed6dd57f2ced5cfcefae0477c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlobRefactored")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlobRefactored")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

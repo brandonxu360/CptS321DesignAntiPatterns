@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Files\\School\\CPTS 321\\presentation\\CptS321DesignAntiPatterns\\BlobRefactored\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A297A8D3-6283-49DC-9352-9BA5528819C4}|BlobRefactored.csproj|d:\\files\\school\\cpts 321\\presentation\\cpts321designantipatterns\\blobrefactored\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A297A8D3-6283-49DC-9352-9BA5528819C4}|BlobRefactored.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A297A8D3-6283-49DC-9352-9BA5528819C4}|BlobRefactored.csproj|d:\\files\\school\\cpts 321\\presentation\\cpts321designantipatterns\\blobrefactored\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A297A8D3-6283-49DC-9352-9BA5528819C4}|BlobRefactored.csproj|solutionrelative:usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A297A8D3-6283-49DC-9352-9BA5528819C4}|BlobRefactored.csproj|d:\\files\\school\\cpts 321\\presentation\\cpts321designantipatterns\\blobrefactored\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A297A8D3-6283-49DC-9352-9BA5528819C4}|BlobRefactored.csproj|D:\\Files\\School\\CPTS 321\\presentation\\CptS321DesignAntiPatterns\\BlobRefactored\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A297A8D3-6283-49DC-9352-9BA5528819C4}|BlobRefactored.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A297A8D3-6283-49DC-9352-9BA5528819C4}|BlobRefactored.csproj|d:\\files\\school\\cpts 321\\presentation\\cpts321designantipatterns\\blobrefactored\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A297A8D3-6283-49DC-9352-9BA5528819C4}|BlobRefactored.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Files\\School\\CPTS 321\\presentation\\CptS321DesignAntiPatterns\\BlobRefactored\\UserController.cs",
+              "RelativeDocumentMoniker": "UserController.cs",
+              "ToolTip": "D:\\Files\\School\\CPTS 321\\presentation\\CptS321DesignAntiPatterns\\BlobRefactored\\UserController.cs",
+              "RelativeToolTip": "UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T05:27:42.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,27 +49,23 @@
               "RelativeDocumentMoniker": "Settings.cs",
               "ToolTip": "D:\\Files\\School\\CPTS 321\\presentation\\CptS321DesignAntiPatterns\\BlobRefactored\\Settings.cs",
               "RelativeToolTip": "Settings.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBwAAAA8AAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T05:13:22.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Files\\School\\CPTS 321\\presentation\\CptS321DesignAntiPatterns\\BlobRefactored\\User.cs",
               "RelativeDocumentMoniker": "User.cs",
               "ToolTip": "D:\\Files\\School\\CPTS 321\\presentation\\CptS321DesignAntiPatterns\\BlobRefactored\\User.cs",
               "RelativeToolTip": "User.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBYAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwDQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T04:51:06.636Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }
