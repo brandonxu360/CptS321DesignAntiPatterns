@@ -52,5 +52,10 @@ namespace BlobRefactored
         {
             UserSettings.DisplaySettings();
         }
+
+        public void ReceiveNotification(string email, string message)
+        {
+            Console.WriteLine($"User notified: {email}, Message: {message}");
+        }
     }
 }

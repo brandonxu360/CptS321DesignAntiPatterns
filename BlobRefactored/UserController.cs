@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace BlobRefactored
 {
-    internal class UserController
+    public class UserController
     {
         private List<User> users = new List<User>();
+
+        public UserController(NotificationService notificationService)
+        {
+            notificationService.NotificationSent += OnNotificationSent;
+        }
 
         // Adds a new user to the system
         public void AddUser(string name, string email, string password)
@@ -99,6 +104,19 @@ namespace BlobRefactored
                 user.DisplayUserInfo();
                 user.DisplaySettings();
             }
+        }
+
+        // Event handler
+        private void OnNotificationSent(object source, NotificationEventArgs args)
+        {
+            NotifyUser(args.Email, args.Message);
+        }
+
+        // Sends a notification to a user
+        private void NotifyUser(string email, string message)
+        {
+            var user = users.FirstOrDefault(u => u.Email == email);
+            user.ReceiveNotification(email, message);
         }
     }
 }
