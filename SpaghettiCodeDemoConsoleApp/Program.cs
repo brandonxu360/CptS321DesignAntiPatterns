@@ -22,7 +22,7 @@ internal class ToDoApp
         // Command-response loop
         while (true)
         {
-            Console.WriteLine("Choose an option: add, remove, list, mark completed, remove completed");
+            Console.WriteLine("Choose an option: add, remove, list, mark completed, remove completed, exit");
             var input = Console.ReadLine()?.ToLower() ?? string.Empty;
 
             if (input == "exit")
