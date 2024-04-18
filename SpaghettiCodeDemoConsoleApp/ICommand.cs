@@ -1,3 +1,7 @@
+// <copyright file="ICommand.cs" company="PlaceholderCompany">
+// Copyright (c) PlaceholderCompany. All rights reserved.
+// </copyright>
+
 namespace SpaghettiCodeDemoConsoleApp;
 
 /// <summary>
@@ -9,4 +13,4 @@ public interface ICommand
     /// Executes the command.
     /// </summary>
     void Execute();
-}g
+}
