@@ -7,7 +7,7 @@ namespace SpaghettiCodeDemoConsoleApp;
 /// <summary>
 /// Adds a to-do item to the collection of to-do items.
 /// </summary>
-public class AddTodoCommand
+public class AddTodoCommand : ICommand
 {
     /// <summary>
     /// The list of to-dos.

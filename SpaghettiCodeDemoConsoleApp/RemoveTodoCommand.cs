@@ -7,7 +7,7 @@ namespace SpaghettiCodeDemoConsoleApp;
 /// <summary>
 /// Remove to-do from to-do collection command.
 /// </summary>
-public class RemoveTodoCommand
+public class RemoveTodoCommand : ICommand
 {
     /// <summary>
     /// The collection of to-do items.
