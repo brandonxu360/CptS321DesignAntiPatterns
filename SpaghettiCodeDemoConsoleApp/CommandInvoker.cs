@@ -17,6 +17,7 @@ public class CommandInvoker
         // Initialize commands
         this.commands.Add("add", new AddTodoCommand(todos));
         this.commands.Add("remove", new RemoveTodoCommand(todos));
+        this.commands.Add("list", new ListTodosCommand(todos));
     }
 
     /// <summary>

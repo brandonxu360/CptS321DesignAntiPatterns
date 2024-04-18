@@ -31,7 +31,7 @@ public class AddTodoCommand : ICommand
     public void Execute()
     {
         // Prompt the user for the title
-        Console.WriteLine("Enter a description:");
+        Console.WriteLine("Enter a title:");
         var title = Console.ReadLine() ?? throw new InvalidOperationException();
 
         // Prompt the user for the description
