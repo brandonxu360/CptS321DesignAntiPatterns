@@ -22,14 +22,17 @@ internal class ToDoApp
         // Command-response loop
         while (true)
         {
+            // Prompt and collect user command input
             Console.WriteLine("Choose an option: add, remove, list, mark completed, remove completed, exit");
             var input = Console.ReadLine()?.ToLower() ?? string.Empty;
 
+            // Exit the program
             if (input == "exit")
             {
                 break;
             }
 
+            // Call the command invoker to execute the command
             commandInvoker.ExecuteCommand(input);
         }
     }
