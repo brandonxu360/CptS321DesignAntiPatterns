@@ -18,7 +18,8 @@ public class CommandInvoker
         this.commands.Add("add", new AddTodoCommand(todos));
         this.commands.Add("remove", new RemoveTodoCommand(todos));
         this.commands.Add("list", new ListTodosCommand(todos));
-        this.commands.Add("mark", new MarkCompletedCommand(todos));
+        this.commands.Add("mark completed", new MarkCompletedCommand(todos));
+        this.commands.Add("remove completed", new RemoveCompletedCommand(todos));
     }
 
     /// <summary>
